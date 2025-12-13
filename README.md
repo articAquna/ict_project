@@ -5,7 +5,7 @@ A unified, responsive travel agency website with three interconnected pages: Hom
 
 ## Project Structure
 ```
-mamoona/
+
 ├── home.html       - Landing page with booking form and featured tours
 ├── tour.html       - Tours catalog with 6 tour packages
 ├── about.html      - Company information, stats, and team members
@@ -16,7 +16,7 @@ mamoona/
 ## Features
 
 ### Design
-- **Color Scheme**: Purple gradient header (#667eea to #764ba2), white content, dark footer (#2c3e50)
+- **Color Scheme**: teal  header (#667eea to #764ba2), white content, dark footer (#2c3e50)
 - **Typography**: Professional font stack with responsive sizes
 - **Cards**: Hover effects with smooth transformations and zoom images
 - **Gradients**: Beautiful gradient overlays for banners and headers
