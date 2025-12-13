@@ -1,13 +1,13 @@
 button {
   position: relative;
   padding: 12px 35px;
-  background: #fec195;
+  background: #5de686;
   font-size: 17px;
   font-weight: 500;
   color: #181818;
-  border: 3px solid #fec195;
+  border: 3px solid #b17385;
   border-radius: 8px;
-  box-shadow: 0 0 0 #fec1958c;
+  box-shadow: 0 0 0 #99334c8c;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -138,12 +138,12 @@ button:hover .star-6 {
   position: absolute;
   top: 5%;
   left: 60%;
-  width: 5px;
+  width: 50px;
   height: auto;
   filter: drop-shadow(0 0 10px #fffdef);
   z-index: 2;
 }
 
 .fil0 {
-  fill: #fffdef;
+  fill: black;
 }
