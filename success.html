@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Successful</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container success-container">
+        <div class="success-card">
+            <div class="success-icon">✓</div>
+            <h1>Booking Confirmed!</h1>
+
+            <div class="booking-details">
+                <div class="detail-row">
+                    <span class="detail-label">Full Name:</span>
+                    <span class="detail-value">{{ name }}</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Email:</span>
+                    <span class="detail-value">{{ email }}</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Trip Price:</span>
+                    <span class="detail-value">PKR {{ price }}</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Status:</span>
+                    <span class="detail-value status-confirmed">Confirmed</span>
+                </div>
+            </div>
+
+            <p class="confirmation-message">
+                Thank you for your booking! A confirmation email has been sent to your email address.
+            </p>
+
+            <div class="actions">
+                <a href="{{ url_for('index') }}" class="btn">Book Another Trip</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
