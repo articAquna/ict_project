@@ -34,6 +34,7 @@
       align-items: center;
       justify-content: center;
       gap: 10px;
+      margin : 200px;
     }
 
     h1, h2, p {
@@ -69,16 +70,27 @@
 </head>
 
 <body>
+
+  <header>
+
+  </header>
+
+  <main>
+      
   <div id="app">
     <canvas id="canvas"></canvas>
 
-    <div class="hero">
-      <h1>Tubes</h1>
-      <h2>Cursor</h2>
+    <div class="hero" >
+        <h1 style="color : white;" >user quarry</h1>
+  <form style="display :flex; flex-direction : column; background:pink; padding : 20px; opacity : 0.5; margin : 200px;">
+    <input type="email" style="display : block;margin-bottom : 20px; width : 300px; height : 20px;" >
+    <textarea name = "message" style="height : 200px; width : 300px ; display : block; margin-bottom : 20px;" ></textarea>
+    <button type="submit" style="margin-left : auto;">sdasdas</button>
+  </form>
       
     </div>
   </div>
-
+</main>
   <script type="module">
     import TubesCursor from "https://cdn.jsdelivr.net/npm/threejs-components@0.0.19/build/cursors/tubes1.min.js";
 
